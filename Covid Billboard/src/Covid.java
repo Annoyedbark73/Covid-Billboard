@@ -5,6 +5,23 @@ All this content is by AnnoyedBark73 all Rights reserved */
 
 public class Covid {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, Corona!"); //haven't started yet
+        System.out.println("Hello, Corona!"); // haven't started yet
+
+        boolean StillAlive;
+        StaySixFeetApart Stay = new StaySixFeetApart();
+        tested test = new tested();
+        Help mask = new Help();
+        WashingHands wash = new WashingHands();
+
+        do {
+            Stay.SixFeetApart();
+            test.GetTested();
+            mask.WearMask();
+            wash.Hands();
+            break;
+
+        } while (StillAlive = true);
+
     }
+
 }
